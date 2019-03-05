@@ -1,0 +1,193 @@
+body{
+    background-color:grey
+}
+
+#container{
+    border: 5px solid green;
+    width: 350px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;   
+    /* overflow-y: auto */
+    margin: auto;
+}
+
+#head{
+    text-transform: uppercase;
+    padding: 20px;
+    color:black;
+}
+
+#input{
+    border: 3px solid grey;
+    border-radius: 7px;
+    height: 20px;
+}
+
+#add{
+    width: 150px;
+    height: 20px;
+    border: 100px;
+    border-radius: 7px;
+    background-color: cornflowerblue;
+    text-align:center;
+}
+#remove{
+    margin: 3px;
+    width: 150px;
+    height: 20px;
+    border: 100px;
+    border-radius: 7px;
+    background-color: tomato;
+    text-align:center;
+}
+#delete{
+    margin: 3px;
+    width: 150px;
+    height: 20px;
+    border: 100px;
+    border-radius: 7px;
+    background-color:yellow;
+    text-align:center;
+}
+
+.controls button:hover{
+    transform: scale(1.08);
+}
+
+/* .list #check1{
+    border: 3px solid grey;
+} */
+
+#container ul{
+    margin: 58px;
+    padding-left: 0px;
+}
+ 
+#container ul li{
+    margin: 2px;
+    list-style: none;
+    border: 2px solid grey;
+    width: 90%;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+}
+
+
+#container ul li label{
+    margin:0 auto;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#container ul li #check{
+    float: left;
+    width: 38px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid grey;
+    position: relative;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+#container ul li #check:checked:after{
+    content:'\2714';
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    color: black;
+}
+
+#container ul li input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0,0,0,.3);
+}
+
+#container .controls{
+    width: 68%;
+    margin: auto;
+}
+
+#container .mycheck{
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.visual{
+    opacity: 1 !important;
+    border-radius: 10px;
+}
+
+/* --------tooltip on input----------- */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color:green;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
